@@ -6,12 +6,15 @@
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
     "dev": "next dev",
+    "build": "next build",
     "test": "npm run lint && npm run prettier:check"
   },
   "dependencies": {
+    "@heroicons/react": "^2.1.4",
     "@tailwindcss/forms": "^0.5.7",
+    "@vercel/postgres": "^0.8.0",
     "heroicons": "^2.1.4",
-    "next": "^14.0.0"
+    "next": "^14.2.4"
   },
   "devDependencies": {
     "@types/node": "20.14.5",
