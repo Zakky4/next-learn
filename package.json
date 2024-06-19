@@ -5,6 +5,7 @@
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
+    "dev": "next dev",
     "test": "npm run lint && npm run prettier:check"
   },
   "dependencies": {
@@ -12,6 +13,8 @@
     "next": "^14.0.0"
   },
   "devDependencies": {
+    "@types/node": "20.14.5",
+    "@types/react": "18.3.3",
     "@vercel/style-guide": "^5.0.1",
     "eslint": "8.52.0",
     "eslint-config-next": "14.0.0",
